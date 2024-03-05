@@ -1,0 +1,565 @@
+#header{
+    background: black;    
+}
+#header marquee{
+    color: green;
+    width: 440px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#header i{
+       color: blue;
+       background: white;
+       border-radius: 50%;
+       font-size: 20px;
+       padding: 8px;
+       margin-left:5px;
+}
+#header a{
+    color: gray;
+}
+#header .nav-item i{
+    color:aqua;
+    background: black;
+    padding-top: 10px;
+}
+#sub-header{
+    background: blue;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+#sub-header ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+#sub-header .navbar-brand{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+ 
+}
+#sub-header .bi-telephone{
+    font-size: 50px;
+    padding-right: 10px;
+    color: white;
+}
+#sub-header #h1{
+    color: gray;
+}
+#sub-header #h2{
+    color: aqua;
+}
+#slider #b1{
+         color: blue;
+}
+#slider h6{
+    color: aqua;
+    font-size: 40px;
+}
+#fact{
+    background: aqua;
+}
+#fact .col-md-3{
+    padding: 10px;
+    color: white;
+}
+#fact #n{
+    padding-top: 20px;
+    font-size: 50px;
+    color: blue;
+}
+#fact #p1{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+#about{
+    margin-top: 80px;
+}
+#about .col-md-6 #img-1{
+    width: 350px;
+    height: 300px;
+    border-radius: 8px !important;
+}
+#about .col-md-6 #img-2{
+    width: 350px;
+    height: 300px;
+    margin-top: 100px;
+    position:absolute;
+    margin-left:120px;
+    border-radius: 8px !important;
+}
+#about h3{
+    color: blue;
+    font-weight: bold;
+}
+#about h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#about #ab-button{
+    color:white;
+    background: aqua;
+   text-align: center;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    padding: 15px 15px; 
+}
+#about #ab-button:hover{
+    opacity: 0.5;
+}
+#service{
+    margin-top: 80px;
+    text-align:center;       
+}
+#service .card{
+    border-radius: 50px;
+    height: 350px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px 10px gray;
+}
+#service .card:hover{
+    background: blue;
+}
+#service #ser-h h6{
+    color: blue;
+    font-size: 25px;
+}
+#service .col-md-4 i{
+    font-size: 80px;
+    color: blue;
+    font-weight: 900;
+    text-decoration: solid;
+}
+#service .col-md-4 i:hover{
+    color: aqua;
+}
+#service .card-text{
+          color: gray;
+}
+#service .card-text:hover{
+    color: white;
+}
+#service .col-md-4 a{
+        color: white;
+        background: aqua;
+        border-radius: 50px;
+        padding: 10px 10px;
+        padding-top: 10px;
+}
+#project{
+    margin-top: 80px;
+    text-align: center;
+}
+#project .col-md-4{
+    margin-top: 40px;
+}
+#project #pro-h h6{
+    color: blue;
+    font-size: 25px;
+}
+#project #box-1{
+    width: 150px;
+    height: 130px;
+    background: aqua;
+    border-radius:8px !important;
+    position: absolute;
+}
+#project #box-2{
+    width: 150px;
+    height: 130px;
+    background:blue;
+    border-radius:8px !important;
+    position:absolute;
+    margin-left: 180px;
+    margin-top: 130px;
+    z-index: -1;
+}
+#project img{
+    position: absolute;
+    margin-left:15px;
+    margin-top: 20px;
+    border-radius: 8px !important;
+    width: 300px;
+    height: 250px;
+}
+#project .project-content{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 90px;
+    background: blue;
+    border-radius: 8px !important;
+    padding: 10px 10px;
+}
+#project .project-content h4{
+    color: aqua;
+}
+#project .project-content p{
+    color: white;
+}
+#project .card{
+    border: none;
+}
+#project #project-two{
+    margin-top: 300px;
+}
+#project #project-two .col-md-4{
+    margin-top: 10px;
+}
+#project-two .project-content-2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 60px;
+    background: blue;
+    border-radius: 8px !important;
+    padding: 10px 10px;
+}
+#project #project-two #box-3{
+    width: 150px;
+    height: 130px;
+    background: aqua;
+    border-radius:8px !important;
+    position: absolute;
+}
+#project #project-two #box-4{
+    width: 150px;
+    height: 130px;
+    background:blue;
+    border-radius:8px !important;
+    position:absolute;
+    margin-left: 180px;
+    margin-top: 130px;
+    z-index: -1;
+}
+#project .project-content-2 h4{
+    color: aqua;
+}
+#project .project-content-2 p{
+    color: white;
+}
+#blog{
+    margin-top: 400px;
+    text-align: center;
+}
+#blog .card{
+    border: none;
+    margin-top: 40px;
+}
+#blog .blog-h h6{
+    color: blue;
+    font-size: 25px;
+    text-align: center;
+}
+#blog .blog-content{
+    color: white;
+}
+#blog .blog-content{
+    position: absolute;
+    margin-left: 150px;
+    background: blue;
+    border-radius: 8px !important;
+    padding: 10px 10px;
+}
+#blog .card-img-top{
+    margin-top: 30px;
+    border-radius: 8px !important;
+}
+#blog #bb-1{
+    position: absolute;
+    color: white;
+    background: aqua;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 10px;
+    font-weight: bold;
+    margin-top: 210px;
+    margin-left: 10px;
+    width: 120px;
+}
+#blog #bb-2{
+    position: absolute;
+    color: white;
+    background: aqua;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 10px;
+    margin-top: 210px;
+    margin-left: 190px;
+    font-weight: bold;
+    width: 120px;
+}
+#blog #admin{
+    width: 100px;
+    position: absolute;
+    margin: 230px 110px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+#blog .card-body{
+    margin-top: 40px;
+}
+#blog h6{
+    color: aqua;
+}
+#team{
+    margin-top: 60px;
+    text-align: center;
+}
+#team #team-h h5{
+    color:blue;
+    font-size: 25px;
+}
+#team .card{
+    position: relative;
+    border:none;
+}
+#team .card .card-img-top{
+    position: absolute;
+    width: 220px;
+    margin-top: 80px;
+    margin-left: 70px;
+    border-radius:100px;
+    border: 3px solid aqua;
+    background: gainsboro;
+}
+#team .card .card-img-top:hover{
+    padding: 5px;
+    border: 3px white;
+}
+#team  .card .card-body{
+    position: absolute;
+    margin-top: 300px;
+    text-align: center;
+    width: 350px;
+}
+#team .card-title:hover{
+    color: blue;
+}
+#team #i-t{
+    color: aqua;
+    font-size: 20px;
+}
+#team #i-t:hover{
+    cursor: pointer;
+}
+#testi{
+    margin-top: 500px;
+    text-align: center;
+}
+#testi .card{
+    border: none;
+    background: gray;
+}
+#testi .col-md-4{
+    position: relative;
+    background: gray;
+    margin-top: 20px;
+}
+#testi #testi-h h5{
+    color: blue;
+    font-size: 25px;
+}
+#testi .card-img-top{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;  
+}
+#testi .card-body{
+    position: absolute;
+    margin-left: 120px;
+}
+#testi .card-title{
+    color: aqua;
+    font-size: 25px;
+}
+#testi #tt-i{
+    color: blue;
+}
+#testi #md-2{
+    background: white;
+}
+#testi #c-2{
+    background: white;
+}
+#get{
+    margin-top:150px;
+}
+#get #get-h{
+    text-align: center;
+}
+#get #get-h h5{
+    color: blue;
+    font-size: 25px;
+}
+#get p button{
+    color: blue;
+    border: none;
+    background: white;
+}
+#get #a{
+    width: 350px;
+    background:aqua;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 30px;
+}
+#get #a i{
+    position: absolute;
+    font-size:30px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color:aqua;
+    background: white;
+}
+#get #a h4,h3{
+    margin-left: 70px;
+}
+#get #c{
+    width: 350px;
+    background:aqua;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 30px;
+  
+}
+#get #c i{
+    position: absolute;
+    font-size:30px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color:aqua;
+    background: white;
+  
+}
+#get #c h4,h3{
+    margin-left: 70px;
+ 
+}
+#get #e{
+    width: 350px;
+    background:aqua;
+    position: relative;
+    border-radius: 50px;
+    margin-left: 30px; 
+}
+#get #e i{
+    position: absolute;
+    font-size:30px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    color:aqua;
+    background: white;
+}
+#get #e h4,h3{
+    margin-left: 70px; 
+}
+#touch{
+    margin: 0px;
+}
+#touch #bar1{
+    max-width:1200px;
+    height: 350px;
+    opacity: 0.3;
+    position: absolute;
+    z-index: -1;
+}
+#touch .card{
+    margin-left: 150px;
+}
+#touch .card #box1{
+    background: aqua;
+    height: 500px;
+}
+#touch #box1 #map{
+    padding:40px;
+    z-index:1;
+}
+#touch form{
+    margin-left: 40px;
+}
+#touch  #box2{
+    background: aqua;
+    height: 500px;
+    padding: 20px;
+}
+#touch #e1{
+    margin-top: 15px;
+}
+#touch #p1{
+   margin-top: 40px;
+}
+#touch #pro{
+    margin-top: 40px;
+}
+#touch #m{
+    margin-top: 40px;
+}
+#touch #bt{
+    margin-top: 40px;
+    font-weight: bold;
+}
+#footer{
+    margin-top: 40px;
+    background: black;
+    margin-bottom: 20px;
+}
+#footer #f-h{
+    color: white;
+    padding-top: 20px;
+}
+#footer .bi-facebook{
+    color: blue;
+    background: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#footer .bi-twitter{
+    color: blue;
+    background: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+}
+#footer .bi-instagram{
+    color: blue;
+    background: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px; 
+}
+#footer .bi-linkedin{
+    color: blue;
+    background: white;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px; 
+}
+#footer #s{
+    padding-top:20px ;
+    color: aqua;
+}
+#footer #link ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+}
+#footer #link ul{
+    list-style-type: none;
+}
+#footer #link ul li a:hover{
+    padding: 15px;
+}
+#footer #con{
+    color: white;
+    font-size: 20px;
+  
+}
